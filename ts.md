@@ -64,7 +64,7 @@ let b:undefined = undefined; //定义undefined类型
 
 **void与undefined和null最大的区别是：**
 
-undefined和null是所有类型的字类型，也就是说undefined类型的变量，可以复制给string类型的变量：
+undefined和null是所有类型的字类型，也就是说undefined类型的变量，可以赋值给string类型的变量：
 
 ```tsx
 let a:void = undefined;
